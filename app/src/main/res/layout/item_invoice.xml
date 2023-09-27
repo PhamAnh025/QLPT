@@ -39,14 +39,14 @@
             android:paddingStart="@dimen/_20sdp"
             android:orientation="vertical">
 
-           <TextView
-               android:id="@+id/tvContract"
-               android:layout_width="wrap_content"
-               android:layout_height="@dimen/_30sdp"
-               android:textStyle="bold"
-               android:textSize="@dimen/_12ssp"
-               android:text="Hóa đơn tháng 06-2022"
-               android:gravity="center"/>
+            <TextView
+                android:id="@+id/tvContract"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:textStyle="bold"
+                android:textSize="@dimen/_12ssp"
+                android:text="Hóa đơn tháng 06-2022"
+                android:gravity="center"/>
             <TextView
                 android:id="@+id/tvElectronic"
                 android:layout_width="wrap_content"

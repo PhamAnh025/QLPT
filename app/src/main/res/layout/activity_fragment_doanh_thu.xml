@@ -28,7 +28,7 @@
         android:fontFamily="monospace"
         android:layout_marginLeft="100dp"
         android:text="DOANH THU"
-        android:textColor="#111211"
+        android:textColor="@color/black"
         android:textSize="26dp" />
     <TextView
         android:id="@+id/coin_all"

@@ -21,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="@dimen/_35sdp"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:background="?attr/colorPrimary"
+            android:background="@color/orange"
             android:minHeight="?attr/actionBarSize"
             android:theme="?attr/actionBarTheme"
             app:title="">
@@ -160,18 +160,18 @@
                     android:background="@drawable/border_item_gray" />
 
             </LinearLayout>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_22sdp"
-                    android:gravity="center|start"
-                    android:text='@{"Tiền phòng: "+String.format("%,d", roomType.rentCode) + " VND", default = "Tiền phòng: 2.000.000 VND"}'
-                    android:textSize="@dimen/_12ssp" />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/_22sdp"
-                    android:gravity="center|start"
-                    android:text='@{"Tiền điện: "+String.format("%,d", roomType.electronicFee) + " VND", default = "Tiền phòng: 2.000.000 VND"}'
-                    android:textSize="@dimen/_12ssp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_22sdp"
+                android:gravity="center|start"
+                android:text='@{"Tiền phòng: "+String.format("%,d", roomType.rentCode) + " VND", default = "Tiền phòng: 2.000.000 VND"}'
+                android:textSize="@dimen/_12ssp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_22sdp"
+                android:gravity="center|start"
+                android:text='@{"Tiền điện: "+String.format("%,d", roomType.electronicFee) + " VND", default = "Tiền phòng: 2.000.000 VND"}'
+                android:textSize="@dimen/_12ssp" />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_22sdp"

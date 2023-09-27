@@ -30,7 +30,7 @@
         android:fontFamily="monospace"
         android:layout_marginLeft="100dp"
         android:text="DOANH THU"
-        android:textColor="#111211"
+        android:textColor="@color/black"
         android:textSize="26dp" />
 
     <TextView
@@ -42,7 +42,7 @@
         android:fontFamily="monospace"
 
         android:text="0 vnđ"
-        android:textColor="#0C49A5"
+        android:textColor="@color/black"
         android:textSize="22dp" />
 
     <LinearLayout
@@ -63,6 +63,7 @@
                 android:layout_height="wrap_content"
                 android:text="từ ngày"
                 android:layout_marginLeft="50dp"
+                android:background="@color/orange"
                 android:layout_weight="1"
                 android:id="@+id/btn_tuNgay"
                 android:layout_marginRight="10dp"
@@ -91,7 +92,7 @@
             <Button
                 android:layout_width="@dimen/_1sdp"
                 android:layout_height="wrap_content"
-                android:text="đên ngày"
+                android:text="đến ngày"
                 android:layout_weight="1"
                 android:layout_marginLeft="50dp"
                 android:id="@+id/btn_denNgay"
@@ -117,7 +118,7 @@
         android:text="thống kê"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="140dp"
-
+        android:background="@drawable/btn_orange"
         android:id="@+id/btn_doanhThu"
         />
 
